@@ -1,0 +1,60 @@
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 2% 2%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "pista1 pista2 pista3"
+    "pista4 pista5 pista6"
+    "pista7 pista8 pista9";
+    font-family:'Courier New', Courier, monospace;
+}
+.faster-one-regular {
+  font-family: "Faster One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+header{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.pista1 { grid-area: pista1; 
+}
+
+.pista2 { grid-area: pista2; 
+}
+
+.pista3 { grid-area: pista3;
+ }
+
+.pista4 { grid-area: pista4;
+}
+
+.pista5 { grid-area: pista5;
+ }
+
+.pista6 { grid-area: pista6; 
+}
+
+.pista7 { grid-area: pista7; 
+}
+
+.pista8 { grid-area: pista8; 
+}
+
+.pista9 { grid-area: pista9; 
+}    
+
+img{
+    width: 80%;
+    height: auto;
+}
+
+#reservada {
+    background-color: rgb(253, 112, 112);
+}
+
+#disponible{
+    background-color: rgb(128, 243, 128);
+}
