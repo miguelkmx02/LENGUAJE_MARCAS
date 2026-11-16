@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Pública Comillas</title>
+    <!-- Enlaces a los archivos CSS separados con atributo media -->
+    <link rel="stylesheet" href="estilos-escritorio.css" media="screen and (min-width: 769px)">
+    <link rel="stylesheet" href="estilos-movil.css" media="screen and (max-width: 768px)">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#libros">Libros</a>
+            <a href="#eventos">Eventos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="principal" id="inicio">
+            <h1>Biblioteca Pública Comillas</h1>
+            <img src="biblioteca.jpg" alt="Imagen destacada de la biblioteca" class="imagen-destacada">
+        </section>
+
+        <section id="libros" class="seccion-libros">
+            <h2>Libros Destacados</h2>
+            <table class="tabla-libros">
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Autor</th>
+                        <th>Género</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Título">Cien años de soledad</td>
+                        <td data-label="Autor">Gabriel García Márquez</td>
+                        <td data-label="Género">Realismo mágico</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Título">Don Quijote de la Mancha</td>
+                        <td data-label="Autor">Miguel de Cervantes</td>
+                        <td data-label="Género">Novela</td>
+                    </tr>
+                     <tr>
+                        <td data-label="Título">La Celestina</td>
+                        <td data-label="Autor">Fernando de Rojas</td>
+                        <td data-label="Género">Tragicomedia</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Título">La casa de Bernarda Alba</td>
+                        <td data-label="Autor">Federico García Lorca</td>
+                        <td data-label="Género">Teatro</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="eventos" class="galeria-eventos">
+            <h2>Galería de Eventos</h2>
+            <div class="galeria-grid">
+                <img src="evento1.jpg" alt="Evento 1">
+                <img src="evento2.jpg" alt="Evento 2">
+                <img src="evento3.jpg" alt="Evento 3">
+                <img src="evento4.jpg" alt="Evento 4">
+            </div>
+        </section>
+    </main>
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <p>C/ Antonio López, nº 3 · Tel.  942 722 286</p>
+        <p>biblioteca@comillas.es</p>
+    </footer>
+</body>
+</html>

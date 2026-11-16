@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header nav.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2c3e50;
+    padding: 1rem;
+}
+
+header nav.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.principal {
+    text-align: center;
+    padding: 2rem;
+}
+
+.imagen-destacada {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+}
+
+.tabla-libros {
+    width: 80%;
+    margin: 2rem auto;
+    border-collapse: collapse;
+}
+
+.tabla-libros th, .tabla-libros td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.tabla-libros th {
+    background-color: #34495e;
+    color: white;
+}
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.galeria-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+footer {
+    background-color: #2c3e50; /* Mismo color que el menú */
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+footer h2 {
+    margin-top: 0; /* Quita el hueco de arriba del título */
+}
